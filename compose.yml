@@ -1,0 +1,15 @@
+---
+version: "2.1"
+services:
+  adolla-docker:
+    image: docker.io/arbuild/adolla-docker
+    container_name: adolla-docker
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - </path/to/folder>/adolla:/home/node/.adolla
+    ports:
+      - 8080:8080
+    restart: unless-stopped
