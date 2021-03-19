@@ -1,4 +1,4 @@
-# adolla-Docker
+# adolla-docker
 Run [adolla](https://github.com/adollaApp/adolla) inside docker container. The server will be running on http://localhost:8080 open this url in your browser.
 
 adolla version - v405 commit
