@@ -21,3 +21,14 @@ docker run -p 8080:8080 docker.io/arbuild/adolla-docker
 Expose on Different port 
 
 docker run -p 6000:8080 docker.io/arbuild/adolla-docker
+
+
+# Credit
+
+[Adolla](https://github.com/adollaApp/adolla)
+
+# License
+
+    This Source Code Form is subject to the terms of the Mozilla Public
+    License, v. 2.0. If a copy of the MPL was not distributed with this
+    file, You can obtain one at http://mozilla.org/MPL/2.0/.
