@@ -8,6 +8,8 @@ WORKDIR /home/node/app
 
 USER node
 
+RUN  echo $(git ls-remote https://github.com/AdollaApp/Adolla master | sed "s/refs\/heads\/master//")
+
 RUN git clone https://github.com/AdollaApp/Adolla.git
 
 WORKDIR /home/node/app/Adolla
